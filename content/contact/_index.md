@@ -1,8 +1,8 @@
 +++
 contact_content = "We look forward to connecting with you."
-meta_description = "Contact Robert Garcia at Coldwell Banker Real Estate Group"
+meta_description = "Find your dream home within Bloomington-Normal. Send an email to get more information"
 title = "Contact Me"
-title_tag = "Contact Robert Garcia - Coldwell Banker Real Estate Group"
+title_tag = "Search Homes in Bloomington-Normal - Blono Houses"
 url = ""
 
 +++
