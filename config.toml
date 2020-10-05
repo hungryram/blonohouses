@@ -18,18 +18,22 @@ parent = "Property Search"
 url = "http://blonohouses.idxhome.com/listing/search/advanced/137224/34?location=Enter+cities%2C+zip+codes+or+neighborhoods&propertyType=SFR%2CCND&minListPrice=&maxListPrice=&squareFeet=&bedrooms=0&bathCount=0&_openHomesOnlyYn=on&_dateRange=on&_virtualTourYn=on"
 weight = 2
 [[menu.main]]
-name = "Property Organizer"
-parent = "Buyers & Sellers"
-url = "https://blonohouses.idxhome.com/organizer/login/137224"
-weight = 1
-[[menu.main]]
 name = "Search"
 parent = "Property Search"
 url = "https://blonohouses.idxhome.com/homesearch/137224"
 weight = 1
 [[menu.main]]
+name = "Property Organizer"
+parent = "Buyers & Sellers"
+url = "https://blonohouses.idxhome.com/organizer/login/137224"
+weight = 1
+[[menu.main]]
+name = "Featured Listings"
+url = "https://blonohouses.idxhome.com/featured/137224"
+weight = 2
+[[menu.main]]
 name = "Home"
-url = "/"
+url = "https://www.blonohouses.com"
 weight = 1
 [[menu.main]]
 name = "Property Search"
@@ -41,10 +45,6 @@ weight = 4
 name = "Contact"
 url = "/contact"
 weight = 5
-[[menu.main]]
-name = "Featured Listings"
-url = "https://blonohouses.idxhome.com/featured/137224"
-weight = 2
 [taxonomies]
 category = "categories"
 tag = "tags"
