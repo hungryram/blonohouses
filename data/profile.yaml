@@ -8,10 +8,10 @@ primary_contact:
   license_type: ''
   license_number: ''
 location_information:
-  address: 304 N. Hershey Rd.
-  city: Bloomington
-  state: Illinois
-  zip_code: 61704
+  address: ''
+  city: ''
+  state: ''
+  zip_code: 
 social_accounts:
   youtube: ''
   facebook: ''
