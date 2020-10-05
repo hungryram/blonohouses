@@ -1,0 +1,80 @@
+---
+logo_or_title:
+  upload_logo: "/uploads/coldwell-banker-the-real-estate-group.png"
+  title: Coldwell Banker The Real Estate Group
+  favicon: "/uploads/coldwell-banker-the-real-estate-group.png"
+main_image:
+  hero_subtitle: The Real Estate Group
+  home_background_image: "/uploads/shutterstock_683283169.jpg"
+  video_background: true
+  upload_video: ''
+  add_url_to_youtube_video: pY2CWYxUbrM
+  hero_title: COLDWELL BANKER
+  align_hero_text: has-text-centered
+  add_a_button:
+    hero_button_text: Get in touch
+    hero_button_link: "/contact"
+    open_in_new_tab: false
+    hero_button_text_color: "#FFFFFF"
+    hero_button_bg_color: "#004890"
+  add_mp4_link: https://hungryram.s3-us-west-1.amazonaws.com/ocean.mp4
+  add_youtube_background_video: false
+home_sections:
+- template: idx-listings
+  heading: Our Featured Listings
+  text: Featured listings are updated hourly from the MLS. Need more information on
+    some properties? Let's get in touch. [Register](https://sellwithrobert.idxhome.com/organizer/login/136027)
+    for an account to receive alerts for new listings that match your search criteria
+- template: intro
+  intro_title: Robert Garcia
+  intro_body: Robert is originally from Texas, born and raised, but has made Bloomington-Normal
+    his home for the past 8 years and loves the community dearly. He remains active
+    as a Big Brother Mentor and serves in numerous community and volunteer organizations,
+    including Central IL REI and MCALA-McLean County Area Landlord Association. In
+    2018, Robert was appointed by the Mayor of Bloomington to serve on the Property
+    Maintenance Review Board where he serves as Bloomington’s Citizen At Large.
+  intro_align_text: has-text-left
+  intro_background_color: "#FFFFFF"
+  intro_add_button:
+    button_label: Read More
+    intro_button_link: "/teams/robert-garcia"
+    intro_open_in_a_new_tab: false
+    intro_button_background_color: "#464646"
+    intro_button_text_color: "#E2E2E2"
+  intro_enable_white_text_color: false
+  add_photo: "/uploads/robert-garcia.jpeg"
+- template: featured-tiles
+  top_left_tile:
+    top_left_featured_image: "/uploads/main-house-photo.jpg"
+    top_left_featured_title: Bloomington
+    top_left_link_to_property: https://sellwithrobert.idxhome.com/listing/results/136027?cityId=21934&location=&propertyType=SFR%2CCND&minListPrice=&maxListPrice=&squareFeet=&bedrooms=0&bathCount=0&_openHomesOnlyYn=on&_dateRange=on&_virtualTourYn=on
+  bottom_left_tile:
+    featured_title: Gridley
+    featured_image: "/uploads/luxkitchen.jpg"
+    bottom_left_link_to_property: https://sellwithrobert.idxhome.com/listing/results/136027?cityId=31030&location=&propertyType=SFR%2CCND&minListPrice=&maxListPrice=&squareFeet=&bedrooms=0&bathCount=0&_openHomesOnlyYn=on&_dateRange=on&_virtualTourYn=on
+  right_tile:
+    featured_title: Colfax
+    featured_image: "/uploads/livingroomandtv.jpg"
+    right_link_to_property: https://sellwithrobert.idxhome.com/listing/results/136027?cityId=28189&location=&propertyType=SFR%2CCND&minListPrice=&maxListPrice=&squareFeet=&bedrooms=0&bathCount=0&_openHomesOnlyYn=on&_dateRange=on&_virtualTourYn=on
+  tile_background_color: ''
+sub_pages:
+  sub_page_image: "/uploads/whitecounter.jpg"
+footer:
+  footer_background: "#000000"
+  footer_bio: In San Antonio and South Texas, home buyers and sellers alike have come
+    to know REALTOR® Trinie Ortiz Johnson as "The one who does it right."
+  disable_background_color: true
+  footer_background_image: "/uploads/whiteinterior.jpg"
+  enable_black_text: false
+colors:
+  text_link_colors: rgb(0, 72, 144)
+  button_background_colors: "#004890"
+  header_background_color: "#FFFFFF"
+  navigation_link_color: "#BA0000"
+  enable_black_menu_items: true
+  top_bar_background: "#004890"
+  top_bar_enable_black_text_color: false
+upload_image: ''
+slideshow:
+  slideshow_home:
+  - "/uploads/whiteinterior.jpg"
