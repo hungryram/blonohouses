@@ -16,65 +16,6 @@
         <em>{{ .Site.Data.profile.primary_contact.license_type }} {{ .Site.Data.profile.primary_contact.license_number }}</em><br>
       </div>
       <div class="column">
-        <h4 class="subtitle is-6" {{ if .Site.Data.design.footer.enable_black_text}}style="color:black"{{else}} style="color:white"{{end}}>Contact</h4>
-        {{ $location := .Site.Data.profile.location_information }}
-        {{ $contact := .Site.Data.profile.primary_contact }}
-        <ul {{ if .Site.Data.design.footer.enable_black_text}}style="color:black"{{else}} style="color:white"{{end}} class="footer-contact">
-          {{ if gt ( len $location.address ) 0 }}{{ if $location }}<li><i class="fas fa-map-marker-alt"></i>{{ $location.address }} {{ $location.city }} {{ $location.state }} {{ $location.zip_code }}</li> {{ end }}{{ end }}
-          {{ if $contact.email }}<li><i class="far fa-envelope"></i><a href="mailto:{{ $contact.email }}">{{ $contact.email }}</a></li> {{ end }}
-          {{ if $contact }}<li><i class="fas fa-mobile-alt"></i> <a href="tel:{{ $contact.mobile_phone }}">{{ $contact.mobile_phone }}</a></li> {{ end }}
-          {{ if $contact.phone }}<li><i class="fas fa-phone-alt"></i> <a href="tel:{{ $contact.phone }}">{{ $contact.phone }}</a></li> {{ end }}
-        </ul>
-        {{ $footerSocial := .Site.Data.profile.social_accounts }}
-        <ul class="footer-social">
-          {{ with $footerSocial.facebook }}
-          <li><a href="{{ . }}" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></i></a></li>
-          {{end}}
-
-          {{ with $footerSocial.instagram }}
-          <li><a href="{{ . }}" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
-          {{end}}
-
-          {{ with $footerSocial.yelp }}
-          <li><a href="{{ . }}" target="_blank" title="Yelp"><i class="fab fa-yelp"></i></a></li>
-          {{end}}
-
-          {{ with $footerSocial.linkedin }}
-          <li><a href="{{ . }}" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-          {{end}}
-
-          {{ with $footerSocial.pinterest }}
-          <li><a href="{{ . }}" target="_blank" title="Pinterest"><i class="fab fa-pinterest-p"></i></a></li>
-          {{end}}
-
-          {{ with $footerSocial.twitter }}
-          <li><a href="{{ . }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-          {{end}}
-
-          {{ with $footerSocial.youtube }}
-          <li><a href="{{ . }}" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></li>
-          {{end}}
-
-          {{ with $footerSocial.realtor }}
-          <li><a href="{{ . }}" target="_blank" title="Realtor">Realtor</a></li>
-          {{end}}
-
-          {{ with $footerSocial.reddit }}
-          <li><a href="{{ . }}" target="_blank" title="Reddit">Reddit</a></li>
-          {{end}}
-
-          {{ with $footerSocial.redfin }}
-          <li><a href="{{ . }}" target="_blank" title="Redfin">Redfin</a></li>
-          {{end}}
-
-          {{ with $footerSocial.trulia }}
-          <li><a href="{{ . }}" target="_blank" title="Trulia">Trulia</a></li>
-          {{end}}
-        </ul>
-        
-        
-      </div>
-      <div class="column">
         <h4 class="subtitle is-6" {{ if .Site.Data.design.footer.enable_black_text}}style="color:black"{{else}} style="color:white"{{end}}>Send a Message</h4>
         {{ if .Site.Data.idx.enable_idx }}
         <form id="ihf-contact-request-form" data-ihf-event="contact-form-submit" action="https://1stindependencerealty.idxhome.com/contact/{{ .Site.Data.idx.idx_id }}" method="POST" data-ihf-event-bound="true">
@@ -153,6 +94,8 @@
 <div class="bottom-credit">
   <small>&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.primary_company_name }}</small> &middot; <a href="https://hungryram.com" target="_blank">Website Developed by Hungry Ram</a>
 </div>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.min.js"></script>
         <script src="{{.Site.BaseURL}}/js/main.js"></script>
@@ -183,7 +126,7 @@
                 });
 
                 $('.sub-menu').click(function(){
-                $('.sub', this).toggleClass('sub-active-menu');
+                $('.sub').toggleClass('sub-active-menu');
                  });
             });
             </script>

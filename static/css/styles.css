@@ -447,7 +447,6 @@ li.active a {
 /* ALL SCREEN SIZE MENU */
 header.navbar {
     padding: 10px 0;
-    box-shadow: 0px 4px 20px 0px #494949;
 }
 
 a.navbar-item img {
@@ -468,6 +467,7 @@ a.navbar-item img {
     font-size: 1.3em;
     color: white;
 }
+
 
 /* HERO CONTAINER  */
 

@@ -7,7 +7,7 @@
           <div class="container {{ . }} animate__animated animate__slideInDown">
             {{end}}
               <h1 class="hero-title title is-1">{{ .Site.Data.design.main_image.hero_title }}</h1>
-              <h2 class="subtitle">{{ .Site.Data.design.main_image.hero_subtitle }}</h2>
+              <h2 class="subtitle has-text-white">{{ .Site.Data.design.main_image.hero_subtitle }}</h2>
   
               {{ if gt ( len .Site.Data.design.main_image.add_a_button.hero_button_text ) 0 }}
                   <a href="{{ .Site.Data.design.main_image.add_a_button.hero_button_link }}" style="{{ safeHTMLAttr (printf "background-color: %s" .Site.Data.design.main_image.add_a_button.hero_button_bg_color ) }};{{ safeHTMLAttr (printf "color: %s" .Site.Data.design.main_image.add_a_button.hero_button_text_color ) }}" class="button hero-button" {{ if .Site.Data.design.main_image.add_a_button.open_in_new_tab }}target="_blank"{{end}} >{{ .Site.Data.design.main_image.add_a_button.hero_button_text }}</a>
@@ -17,7 +17,7 @@
       </div>
 <div class="home-slide">
 {{ range .Site.Data.design.slideshow.slideshow_home }}
-    <div style="background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url({{ . }});height:100vh;background-size:cover;background-position:center">
+    <div style="background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url({{ . }});height:100vh;background-size:cover;background-position:center">
     </div>
 {{ end }}
   </div>
