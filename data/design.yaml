@@ -20,6 +20,20 @@ main_image:
   add_mp4_link: https://hungryram.s3-us-west-1.amazonaws.com/ocean.mp4
   add_youtube_background_video: false
 home_sections:
+- template: intro
+  intro_title: Find Homes in Bloomington-Normal
+  intro_body: Blono is a vibrant community located in the central heart of Illinois.
+    Bloomington-Normal attractions makes it a well-known area throughout the nation.
+  add_photo: "/uploads/main-house-photo-1.jpg"
+  intro_add_button:
+    button_label: ''
+    intro_button_link: ''
+    intro_open_in_a_new_tab: false
+    intro_button_background_color: ''
+    intro_button_text_color: ''
+  intro_align_text: ''
+  intro_background_color: ''
+  intro_enable_white_text_color: false
 - template: idx-listings
   heading: Our Featured Listings
   text: Featured listings are updated hourly from the MLS. Need more information on
