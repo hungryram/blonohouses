@@ -1,5 +1,5 @@
-baseURL = "https://www.sellwithrobert.com/"
-enableRobotsTXT = "true"
+baseURL = "https://www.blonohouses.com/"
+enableRobotsTXT = true
 languageCode = "en-us"
 summarylength = 20
 [[menu.main]]
