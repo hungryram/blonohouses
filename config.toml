@@ -8,14 +8,14 @@ parent = "Buyers & Sellers"
 url = "https://sellwithrobert.com/home-value-request"
 weight = 3
 [[menu.main]]
-name = "Advanced Search"
-parent = "Property Search"
-url = "http://www.idxhome.com/listing/search/advanced/136027/34?location=Enter+cities%2C+zip+codes+or+neighborhoods&propertyType=SFR%2CCND&minListPrice=&maxListPrice=&squareFeet=&bedrooms=0&bathCount=0&_openHomesOnlyYn=on&_dateRange=on&_virtualTourYn=on"
-weight = 2
-[[menu.main]]
 name = "Mortgage Calculator"
 parent = "Buyers & Sellers"
 url = "https://sellwithrobert.idxhome.com/mortcalc/136027"
+weight = 2
+[[menu.main]]
+name = "Advanced Search"
+parent = "Property Search"
+url = "http://www.idxhome.com/listing/search/advanced/136027/34?location=Enter+cities%2C+zip+codes+or+neighborhoods&propertyType=SFR%2CCND&minListPrice=&maxListPrice=&squareFeet=&bedrooms=0&bathCount=0&_openHomesOnlyYn=on&_dateRange=on&_virtualTourYn=on"
 weight = 2
 [[menu.main]]
 name = "Property Organizer"
@@ -28,27 +28,23 @@ parent = "Property Search"
 url = "https://sellwithrobert.idxhome.com/homesearch/136027"
 weight = 1
 [[menu.main]]
-name = "Featured Listings"
-url = "https://sellwithrobert.idxhome.com/featured/136027"
-weight = 2
-[[menu.main]]
-name = "Contact"
-url = "/contact"
-weight = 6
-[[menu.main]]
-name = "Buyers & Sellers"
-weight = 4
-[[menu.main]]
-name = "Property Search"
-weight = 3
-[[menu.main]]
 name = "Home"
 url = "/"
 weight = 1
 [[menu.main]]
-name = "The Team"
-url = "/teams"
+name = "Property Search"
+weight = 3
+[[menu.main]]
+name = "Buyers & Sellers"
+weight = 4
+[[menu.main]]
+name = "Contact"
+url = "/contact"
 weight = 5
+[[menu.main]]
+name = "Featured Listings"
+url = "https://sellwithrobert.idxhome.com/featured/136027"
+weight = 2
 [taxonomies]
 category = "categories"
 tag = "tags"
